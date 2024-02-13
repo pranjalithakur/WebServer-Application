@@ -1,0 +1,13 @@
+[Unit]
+Description=Web Server Project
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/src/web_server/Code/server.py localhost 443 /usr/local/src/web_server/Code/cert.pem /usr/local/src/web_server/Code/key.pem
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

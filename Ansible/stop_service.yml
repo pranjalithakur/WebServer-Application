@@ -1,0 +1,10 @@
+---
+- name: Stop the service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Stop the service
+      become: yes
+      systemd:
+        name: web_server
+        state: stopped

@@ -1,0 +1,4 @@
+# WEB SERVER PROJECT!
+This project involves a comprehensive web server setup using Docker, including a custom Python-based web server and an Nginx reverse proxy configured for HTTPS. The web server is designed to handle both static content and PHP scripts, with the latter being processed through a PHP interpreter.
+
+Additionally, the setup includes load balancing capabilities, distributing incoming traffic across multiple instances of the web server. For testing purposes, a Selenium environment within a Docker container is established to exploit and test a path traversal vulnerability in the web server. 

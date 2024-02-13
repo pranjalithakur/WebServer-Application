@@ -1,0 +1,34 @@
+---
+- hosts: all
+  become: yes
+  
+  tasks:
+ 
+    - name: Copy the web server files
+      copy:
+        src: "/home/pranjali/RecoveryProject/csec731-2231-webserver-pranjalithakur/Ansible/Code"
+        dest: "/usr/local/src/web_server"
+    
+    - name: Create systemd service file for the web server
+      template:
+        src: "/home/pranjali/RecoveryProject/csec731-2231-webserver-pranjalithakur/Ansible/web_server.service.j2"
+        dest: "/etc/systemd/system/web_server.service"
+    
+    - name: Install the php-cgi package
+      apt:
+        name: php-cgi
+        update-cache: yes
+    
+    - name: Allow all access to port 443
+      ufw:
+        rule: allow
+        port: '443'
+        proto: tcp
+
+    - name: Enable and Start server service
+      systemd:
+        name: web_server
+        enabled: yes
+        state: started
+        daemon_reload: yes
+        
