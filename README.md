@@ -10,7 +10,6 @@ The primary goal of this project was to develop a highly secure web application 
 
 
 ### Skills Learned
-[Bullet Points]
 
 - Mastery in Docker containerization and deployment techniques, ensuring a scalable and secure server environment.
 - Advanced understanding and application of web security principles, particularly in parsing and handling HTTP requests.
@@ -19,7 +18,6 @@ The primary goal of this project was to develop a highly secure web application 
 
 
 ### Tools Used
-[Bullet Points]
 
 - Docker: Used for containerizing the web application server, facilitating easy deployment and scalability.
 - PHP: Selected for script execution within the web server environment.
@@ -28,11 +26,10 @@ The primary goal of this project was to develop a highly secure web application 
 
 
 ## Steps
-[Bullet Points]
 
-- Writing a Parser: Developed a parser for HTTP requests without using external libraries, focusing on understanding the structure of HTTP requests and ensuring their validation.
-- Turning the Parser into a Server: Integrated the parser with networking and file access modules to create a functional HTTP server. Emphasis was on making the server accessible to a network and serving files securely.
-- Adding Server-side Execution: Enhanced the server by enabling PHP scripting, ensuring dynamic content delivery. Special attention was given to correctly populating $_GET and $_POST arrays in PHP.
-- Vulnerability Testing: Conducted rigorous tests using Selenium scripts to identify and mitigate any potential security vulnerabilities.
-- Documentation: Methodically documented the entire development process, including the configuration and deployment steps, as well as the findings from the vulnerability tests.
-- Deployment with Docker: Finalized the project by deploying the server using Docker, emphasizing on security and scalability in a containerized environment.
+- **Writing a Parser:** Developed a parser for HTTP requests without using external libraries, focusing on understanding the structure of HTTP requests and ensuring their validation.
+- **Turning the Parser into a Server:** Integrated the parser with networking and file access modules to create a functional HTTP server. Emphasis was on making the server accessible to a network and serving files securely.
+- **Adding Server-side Execution:** Enhanced the server by enabling PHP scripting, ensuring dynamic content delivery. Special attention was given to correctly populating $_GET and $_POST arrays in PHP.
+- **Vulnerability Testing:** Conducted rigorous tests using Selenium scripts to identify and mitigate any potential security vulnerabilities.
+- **Documentation:** Methodically documented the entire development process, including the configuration and deployment steps, as well as the findings from the vulnerability tests.
+- **Deployment with Docker:** Finalized the project by deploying the server using Docker, emphasizing on security and scalability in a containerized environment.
