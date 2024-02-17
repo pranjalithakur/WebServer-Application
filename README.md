@@ -19,10 +19,10 @@ The primary goal of this project was to develop a highly secure web application 
 
 ### Tools Used
 
-- Docker: Used for containerizing the web application server, facilitating easy deployment and scalability.
-- PHP: Selected for script execution within the web server environment.
-- Selenium: Employed for automated vulnerability testing to ensure robust security.
-- Various Security Tools: Utilized for mitigating risks such as SQL injections and path traversal vulnerabilities.
+- **Docker:** Used for containerizing the web application server, facilitating easy deployment and scalability.
+- **PHP:** Selected for script execution within the web server environment.
+- **Selenium:** Employed for automated vulnerability testing to ensure robust security.
+- **Various Security Tools:** Utilized for mitigating risks such as SQL injections and path traversal vulnerabilities.
 
 
 ## Steps
